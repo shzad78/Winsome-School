@@ -14,4 +14,4 @@ and start local development server (available at https://localhost:8080/):
 $ npm run dev
 
 <h2>Preview of App</h2>
-<img src="./src/screenshot/Home.png"/>
+<img src="./src/screenshot/Home.jpg"/>
