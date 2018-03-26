@@ -4,7 +4,7 @@ App is in progress using ReactJS, Redux, Webpack, Sass. It aims at helping to em
 # Installation.
 To install dependencies just do
 
-<h4>After cloning,<h/4>
+<h4>After cloning,</h4>
 
 $ cd Winsome-School
 
