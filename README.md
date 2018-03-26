@@ -1,11 +1,11 @@
-# Winsome_School
+# Winsome-School
 App is in progress using ReactJS, Redux, Webpack, Sass. It aims at helping to empower faculty and staff to contribute to the website, delegating the publishing responsibilities, so they can keep their content up to date. It will be powerful enough for web admins to be efficient, simple enough for any user – regardless of their tech skills – to use it confidently.  The simplicity of this Web App enables any school – regardless of the range of staff’s technical abilities – to shift how content is managed on school website. 
 
 # Installation.
 To install dependencies just do 
 After cloning,
 
-$ cd Winsome_School
+$ cd Winsome-School
 
 $ npm install
 
