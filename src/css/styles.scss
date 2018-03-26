@@ -1,58 +1,45 @@
 @import '../../node_modules/bootstrap/dist/css/bootstrap.css';
 @import '../../node_modules/bootstrap/dist/css/bootstrap-theme.css';
 
-@import './partials/mixins';
 @import './partials/variables';
+@import './partials/mixins';
+@import './partials/globals';
 
-@import './modules/heroImage';
-@import './modules/app';
-body{
-    font-family: Roboto sans-serif;
-}
-.bgimage {
-    width:100%;
-    height:100vh;
-    background: url('../images/Hero.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size:cover;
-    position: relative;
-    border-bottom: 5px solid rgb(78, 180, 10) ;
-  }
-  
-  .bgimage h4 {
-    color:black;
-    text-align: center;
-    width: 400px;
-    height: 100px;
-    background-color:white;
-    position: absolute;
-    top: 400px;
-    left: 290px;
-    
-    //border: 2px solid #73AD21;
-    padding: 10px; 
-    
-  }
-  .speech-bubble:after {
-    content: '';
-    position: absolute;
-    right: 0;
-    top: 17%;
-    width: 0;
-    height: 0;
-    border: 34px solid transparent;
-    border-left-color:white;
-    border-right: 0;
-    border-top: 0;
-    margin-top: -17px;
-    margin-right: -34px;
-  }
-  h4 .p1{
-    color:rgb(78, 180, 10);
-  }
-  h4 .p2{
-    padding: 10px;
-    color: blue;
-  }
+@import './modules/app/app';
+// ########## Header ##########
+@import './modules/header/_login';
+@import './modules/header/_nav';
+@import './modules/header/_navbar';
+@import './modules/header/_wrapper';
+@import './modules/header/_dropDownMenu';
+@import './modules/header/_navSubMenu';
+@import './modules/header/_dropDownBox';
+// ########## Hero ##########
+@import './modules/hero/hero';
+// ########## Promo ##########
+@import './modules/promo/winsomeSchool';
+@import './modules/promo/promoCard';
+@import './modules/promo/readMoreButton';
+@import './modules/promo/juniorSchool';
+// ########## Calender ##########
+@import './modules/calender/content';
+@import './modules/calender/events';
+@import './modules/calender/arrow';
+// ########## Whatshappen ##########
+@import './modules/Whatshappen/Whatshappen';
+// ########## Gallery ##########
+@import './modules/gallery/gallery';
+// ########## Footer ##########
+@import './modules/footer/footer';
 
+// ########## Career ##########
+@import './modules/career/career';
+@import './modules/News/news';
+// ########## Junior ##########
+@import './modules/junior/junior';
+
+// ########## Middle ##########
+@import './modules/middle/middle';
+
+// ########## Photo Gallery ##########
+@import './modules/photogallery/photogallery';
