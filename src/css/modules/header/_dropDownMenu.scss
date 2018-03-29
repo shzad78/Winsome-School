@@ -18,16 +18,18 @@
 	transition:all 500ms;
 	transition-delay: 400ms;
 	//background-color: green
-		a{  
+		a{	
 			color:$white;
+			text-transform: uppercase;
 			padding:0px 10px 0px 10px;
-		}
+		}	
 	}
 .drop-down-menu:hover{
 	//height :100px;
 	cursor: pointer;
 	opacity: 1;
 	visibility: visible;
+    overflow: hidden;
 	//display:block;
 	background-color:$secondary-color;	//...it is used to purple the background even on hovering 
 }
@@ -40,9 +42,18 @@
 	background-color:$secondary-color;
 	}
 
-.last{
-	right: 30px
+.news-events-header{
+	min-width: 380px; 
+	// min-width: 0px; 
 }
-.last2{
-	right:30px
+.home-header{
+	display:none;
+}
+.career-header{
+	right:30px;
+	display:none;
+}
+.contact-header{
+	right: 30px;
+	display:none;
 }

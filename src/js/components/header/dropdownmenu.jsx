@@ -7,10 +7,10 @@ import {
 
 const DropDownMenu = (props)=> {
 	let {data2,func1,func2,styles}=props
-	data2=data2.split(' ')
+	//console.log(styles)
 	let mydata=data2.map((item,index)=>{
 		return (
-			<Link to={item} key={index} >{item}</Link>			
+			<Link to={item.addressValue} key={index} >{item.value}</Link>		
 		)
 	})
 		return (

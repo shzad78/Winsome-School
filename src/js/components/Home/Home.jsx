@@ -3,12 +3,11 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 
 
-
-import Promo from '../promo/app';
+import Hero from '../hero/HeroImage';
+import Promo from '../promo/Promo';
 import Calender from '../calender/Calender';
 import Blog from '../Whatshappen/Blog';
 import Gallery from '../gallery/Gallery';
-
 
 
 class Home extends Component {
@@ -17,14 +16,13 @@ class Home extends Component {
   }
 
   render() {
-    let {} = this.props;
+    let {style} = this.props;
 
     return (
-     
-
       <div className="Home">
-       
-       
+        <Hero 
+          style={'hero-image'}
+        />
         <Promo />
         <Calender/>
         <Blog/>
